@@ -11,6 +11,7 @@ import Safety from '../views/Safety.vue'
 import FAQ from '../views/FAQ.vue'
 import Support from '../views/Support.vue'
 import Legal from '../views/Legal.vue'
+import Download from '../views/Download.vue'
 import { useAuthStore } from '../stores/auth'
 const routes = [
   { path: '/', name: 'home', component: Home },
@@ -23,7 +24,8 @@ const routes = [
   { path: '/auth', name: 'auth', component: Auth, meta: { guestOnly: true } },
   { path: '/dashboard', name: 'dashboard', component: Dashboard, meta: { requiresAuth: true } },
   { path: '/rechargeur', name: 'rechargeur', component: BecomeRecharger },
-  { path: '/:pathMatch(.*)*', name: '404', component: NotFound }
+  { path: '/:pathMatch(.*)*', name: '404', component: NotFound },
+  { path: '/download', name: 'Download', component: Download },
 ]
 const router = createRouter({ history: createWebHistory(), routes })
 router.beforeEach((to, from, next) => {
