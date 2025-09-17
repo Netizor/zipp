@@ -22,7 +22,7 @@ const routes = [
   { path: '/support', name: 'support', component: Support },
   { path: '/legal', name: 'legal', component: Legal },
   { path: '/auth', name: 'auth', component: Auth, meta: { guestOnly: true } },
-  { path: '/dashboard', name: 'dashboard', component: Dashboard, meta: { requiresAuth: true } },
+  { path: "/dashboard", name: "Dashboard", component: Dashboard },
   { path: '/rechargeur', name: 'rechargeur', component: BecomeRecharger },
   { path: '/:pathMatch(.*)*', name: '404', component: NotFound },
   { path: '/download', name: 'Download', component: Download },
