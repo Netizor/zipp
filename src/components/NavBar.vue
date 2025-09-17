@@ -3,7 +3,7 @@
   <header class="sticky top-0 bg-white/90 backdrop-blur border-b border-gray-100 z-50">
     <nav class="section flex items-center justify-between h-16">
       <router-link to="/" class="flex items-center gap-3">
-        <img src="/src/assets/logo.png" alt="Zypp" style="height: 105px" class="h-8 w-auto"/>
+        <img src="/src/assets/logo.png" alt="Zypp" style="height: 80px" class="h-8 w-auto"/>
       </router-link>
       <div class="hidden md:flex items-center gap-6">
         <router-link class="hover:text-brand" to="/fonctionnement">Fonctionnement</router-link>
