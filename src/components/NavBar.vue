@@ -9,7 +9,7 @@
         <router-link class="hover:text-brand" to="/fonctionnement">Fonctionnement</router-link>
         <router-link class="hover:text-brand" to="/rechargeur">Rechargeurs</router-link>
         <a class="hover:text-brand" href="/tarifs">Tarifs</a>
-        <a class="hover:text-brand" href="#download">App</a>
+        <a class="hover:text-brand" href="/download">App</a>
         <router-link class="btn btn-primary" :to="user ? '/dashboard' : '/auth'">
           {{ user ? 'Mon espace' : 'Se connecter' }}
         </router-link>

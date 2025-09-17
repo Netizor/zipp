@@ -10,7 +10,7 @@
         <h3 class="font-semibold mb-2">Explorer</h3>
         <ul class="grid gap-1 text-sm">
           <li><a class="hover:text-brand" href="/tarifs">Tarifs</a></li>
-          <li><a class="hover:text-brand" href="#download">App</a></li>
+          <li><a class="hover:text-brand" href="/download">App</a></li>
           <li><router-link class="hover:text-brand" to="/rechargeur">Rechargeurs</router-link></li>
         <li><router-link class="hover:text-brand" to="/fonctionnement">Fonctionnement</router-link></li>
           <li><router-link class="hover:text-brand" to="/faq">FAQ</router-link></li>

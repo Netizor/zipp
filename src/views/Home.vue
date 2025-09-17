@@ -12,7 +12,7 @@
           Déverrouillez une trottinette en quelques secondes, payez au trajet et gagnez du temps au quotidien.
         </p>
         <div class="mt-6 flex flex-wrap gap-3">
-          <a href="#download" class="btn btn-primary">Télécharger l’app</a>
+          <a href="/download" class="btn btn-primary">Télécharger l’app</a>
           <router-link to="/rechargeur" class="btn btn-ghost">Devenir rechargeur</router-link>
         </div>
         <div class="mt-6 flex items-center gap-4">
@@ -70,7 +70,7 @@
           <h2 class="text-3xl md:text-4xl font-bold mt-2">Payez ce que vous roulez.</h2>
           <p class="lead mt-2">Sans engagement. Réductions étudiantes disponibles.</p>
         </div>
-        <a href="#download" class="btn btn-outline mt-4 md:mt-0">Obtenir l’app</a>
+        <a href="/download" class="btn btn-outline mt-4 md:mt-0">Obtenir l’app</a>
       </div>
       <div class="grid md:grid-cols-3 gap-6">
         <div class="card">
