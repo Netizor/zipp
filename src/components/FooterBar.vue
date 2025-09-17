@@ -3,7 +3,7 @@
   <footer class="mt-16 border-t border-gray-100">
     <div class="section py-10 grid gap-8 md:grid-cols-3">
       <div>
-        <img src="/src/assets/logo.png" class="h-8" alt="Zypp">
+        <img src="/src/assets/logo.png" style="height 80px" class="h-8" alt="Zypp">
         <p class="text-sm text-gray-600 mt-3">Zypp – Location de trottinettes à Montpellier.</p>
       </div>
       <div>
