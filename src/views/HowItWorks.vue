@@ -13,7 +13,7 @@
       <p class="text-gray-600 mt-2">L’app affiche les zones de stationnement, zones à vitesse réduite et zones interdites.</p>
       <div class="mt-4 h-64 rounded-2xl bg-gray-50 border grid place-items-center text-sm text-gray-600">
 	  
-		<img src="/map.png" class="w-48 h-48 mb-4" />
+		<img src="/map.png" class="w-48 h-48 mb-4" alt="map" style="height: 100%; width: 100%;" />
 	  
 	  </div>
     </div>
