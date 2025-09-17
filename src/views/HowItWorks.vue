@@ -11,9 +11,9 @@
     <div class="card mt-10">
       <h2 class="font-semibold text-xl">Zones et carte</h2>
       <p class="text-gray-600 mt-2">L’app affiche les zones de stationnement, zones à vitesse réduite et zones interdites.</p>
-      <div class="mt-4 h-64 rounded-2xl bg-gray-50 border grid place-items-center text-sm text-gray-600">
+      <div class="mt-4 h-64 rounded-2xl bg-gray-50 border grid place-items-center text-sm text-gray-600" style="display: flex;height: 400px;">
 	  
-		<img src="/map.png" alt="map" />
+		<img src="/map.png" alt="map" style="width: 100%;height: 100%;object-fit: cover;" />
 	  
 	  </div>
     </div>
