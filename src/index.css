@@ -1,0 +1,25 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --brand:#fc6104;
+  --eco:#2e7d32;
+}
+body{ font-family: Arial, Helvetica, sans-serif;  @apply font-sans; }
+h1,h2,h3,h4,h5,h6{ font-family: 'Roboto', sans-serif; }
+
+.btn{ @apply inline-flex items-center justify-center rounded-full px-6 py-3 font-medium shadow transition; }
+.btn-primary{ @apply bg-[color:var(--brand)] text-white hover:opacity-90; }
+.btn-ghost{ @apply bg-white text-gray-900 border border-gray-200 hover:border-gray-300; }
+.btn-outline{ @apply border-2 border-[color:var(--brand)] text-[color:var(--brand)] bg-white hover:bg-orange-50; }
+
+.card{ @apply rounded-2xl border border-gray-100 shadow p-6 bg-white; }
+.section{ @apply max-w-6xl mx-auto px-4 md:px-6; }
+.kicker{ @apply inline-flex items-center gap-2 text-sm font-semibold tracking-wide uppercase text-gray-500; }
+.pill{ @apply inline-flex items-center gap-2 rounded-full px-3 py-1 text-xs font-medium bg-gray-100; }
+.stat{ @apply text-3xl md:text-4xl font-bold font-heading; }
+.lead{ @apply text-lg text-gray-600; font-family: Arial, sans-serif; }
+
+h1,h2,h3,.heading{ font-family:'Roboto', Arial, Helvetica, sans-serif; }
