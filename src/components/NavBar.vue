@@ -21,7 +21,7 @@
         <router-link @click="open=false" to="/fonctionnement">Fonctionnement</router-link>
         <router-link @click="open=false" to="/rechargeur">Rechargeurs</router-link>
         <a @click="open=false" href="/tarifs">Tarifs</a>
-        <a @click="open=false" href="#download">App</a>
+        <a @click="open=false" href="/download">App</a>
         <router-link @click="open=false" class="btn btn-primary" :to="user ? '/dashboard' : '/auth'">
           {{ user ? 'Mon espace' : 'Se connecter' }}
         </router-link>
