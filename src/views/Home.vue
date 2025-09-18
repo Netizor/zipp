@@ -80,7 +80,7 @@
         </div>
         <div class="card">
           <h3 class="font-semibold">Par minute</h3>
-          <p class="text-3xl font-bold mt-2">0,20 €</p>
+          <p class="text-3xl font-bold mt-2">0,15 €</p>
           <p class="text-sm text-gray-500 mt-1">facturation à la minute</p>
         </div>
         <div class="card">
@@ -106,7 +106,7 @@
           <h3 class="text-xl font-semibold">Zones de stationnement</h3>
           <p class="text-gray-600 mt-2">Visualisez les zones directement dans l’app pour terminer votre course proprement.</p>
           <div class="mt-4 h-56 rounded-2xl bg-[color:var(--fresh)]/10 border border-[color:var(--fresh)] grid place-items-center text-sm text-gray-600">
-            Aperçu carte (démo)
+            <img src="/map.png" alt="map" style="width: 100%;height: 100%;object-fit: cover;" />
           </div>
         </div>
       </div>
